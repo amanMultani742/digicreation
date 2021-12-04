@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Open Sans', sans-serif; 
+}
+
+:root {
+    --primary: #d40055;
+    --white: #ffffff;
+    --primarylight:#d400554f;
+    --secondary:#610094;
+    --secondarylight:#60009442;
+    --yellow:#ffc107;
+    --yellowlight:#ffc10750;
+    --indigo:#6610f2;
+    --indigolight:#6710f248;
+    --cyan:#0dcaf0;
+    --cyanlight:#0dcaf042;
+    --success:#198754;
+  }
+/* font-family: 'Open Sans', sans-serif; */
+
+*.digicreation{
+    font-family: 'open sans','san-serif';
+    color: var(--white);
+    font-weight: 500;
+    
+    
+}
+/* PreLoader styling */
+ /* #preloader{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0055d4;
+    z-index: 10;
+} */
+
+
+
+ #navBar #navbarNav .nav-item a{
+    font-size: 1.2em;
+    border-bottom: 3px solid transparent;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 101;
+    
+    
+}
+ #navBar #navbarNav .nav-item a:hover{
+    border-bottom: 3px solid var(--success);
+    color: var(--success);
+}
+
+
+ #navBar .navbar-brand img{
+    width: 50%;
+    
+    display: flex;
+   
+    
+    
+}
+
+
+/* Hero text */
+.bgFull{
+    background:linear-gradient( rgba(22, 21, 34, 0.493) 100%, rgba(21, 17, 32, 0.3)100%),url("img/bitmap2.png");
+    width: 100%;
+    height: 90vh;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    
+}
+.heroText{
+    width: 85%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heroText .heroContent{
+    width: 100%;
+    height: 100%;
+    font-family: 'Open sans', serif; 
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+/* Button styling */
+.cssbuttons-io-button {
+    background: #A370F0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+   }
+   
+   .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+   }
+   
+
+
+
+
+
+
+
+
+
+/* info */
+.info{
+    
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/photo1.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+   
+}
+.info .elegant{
+    color: var(--primary);
+}
+.info .productive{
+    color: #0055d4;
+}
+.info .simple{
+    color: #8800aa;
+}
+.info h1{
+    
+    font-family: 'Arvo', serif; 
+    font-size: 2.5em;
+}
+.info p{
+    font-family: "open sans",serif;
+    font-size: 1.2em;
+    width: 90%;
+    
+}
+
+.aboutUs{
+    padding-top: 4em;
+   
+
+}
+.aboutUs #cards{
+    border-top: 3px solid var(--primary);
+    height:15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(255, 255, 255, 0.171) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.267) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+.aboutUs #cards h2{
+    font-size: 1.6em;
+    font-family: 'Arvo', serif;
+}
+.aboutUs #cards p{
+    font-family: "open sans",serif;
+    font-size: .9em; 
+}
+#displayDesign{
+  
+    height: 50vh;
+    position: relative;
+    
+    font-family: "open sans";
+}
+.displayDesign .post1{
+    
+    background:linear-gradient( rgba(61, 52, 182, 0.3) 100%, rgba(73, 19, 221, 0.3)100%),url("img/program.png");
+}
+.displayDesign .post2{
+    background:linear-gradient( rgba(25, 25, 26, 0.7) 100%, rgba(32, 31, 32, 0.7)100%),url("img/seo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.displayDesign .col-md-5 h1{
+    font-family: 'Arvo', serif;
+}
+
+
+.logoDisplay{
+    height: 30vh;
+    background-image: url("img/banner.png");
+    background-position: center;
+    background-size: cover;
+
+}
+.logoDisplay .row .col-md-12{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+    padding-left: 3em;
+    font-family: 'Arvo', serif;
+    
+    
+}
+.clientComment{
+    height: 70vh;
+}
+/* Footer */
+
+footer{
+    height: 40vh;
+    font-family: "open sans";
+}
+footer .row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer .row #footerNav h3{
+    color: var(--white);
+}
+
+.copyrights .copyContent{
+    /* background-color: #FF8008; */
+    width: 75%;
+    border-top: 1px solid rgba(128, 128, 128, 0.589);
+    height: 3em;
+    margin: auto;
+    
+}
+.copyrights .copyContent p{
+    text-align: center;
+    line-height: 2em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Service Page */
+.servicePage{
+    width: 100%;
+    height: auto;
+}
+.service{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+#serviceSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#serviceSection .card{
+    height: 18rem;
+
+
+}
+.service .serviceTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .serviceSection{
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: table;
+    place-items: center;
+}
+
+
+/* About us styling */
+.bgAbout{
+    
+    width: 100%;
+    height: auto;
+    background: #5191aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left bottom, #b03edd, #1279a1);;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left bottom, #b03edd, #1279a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "open sans";
+}
+
+.aboutBanner{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)),url("img/1121.png");
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "open sans";
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+#FAQ .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "open sans";
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  #FAQ .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-family: "open sans";
+  }
+
+  /* Contact US page */
+  .contactUs{
+      width: 100%;
+      height: auto;
+      font-family: "open sans";
+      /* height: 100vh; */
+      
+  }
+  /* Botton style */
+  #form button {
+    width: 21%;
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.5em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   #form button span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   #form button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   #form button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   #form button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   #form button:hover span {
+    transform: translateX(5em);
+   }
+   
+   #form button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+   
+  
+  /* Why need a website blog post */
+  .whywebBG{
+    
+    width: 100%;
+    min-height: 90vh;
+    
+    
+    font-family: "open sans";
+  }
+  .whywebBG .split{
+      height: auto;
+  }
+  .products{
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+  .products #productSection .card{
+      height: auto;
+      border: none;
+  }
+  #productSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="324.32581"
+   height="81.304855"
+   viewBox="0 0 85.811202 21.511911"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.1232864"
+     inkscape:cx="180.71971"
+     inkscape:cy="96.591571"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g14427"
+     width="100px">
+    <sodipodi:guide
+       position="-122.75762,64.038425"
+       orientation="1,0"
+       id="guide3378" />
+    <sodipodi:guide
+       position="-73.660767,107.00375"
+       orientation="0.70710678,-0.70710678"
+       id="guide3808" />
+    <sodipodi:guide
+       position="-69.956687,103.46588"
+       orientation="-0.70710678,-0.70710678"
+       id="guide3810" />
+    <sodipodi:guide
+       position="-70.930197,80.624176"
+       orientation="0.70710678,-0.70710678"
+       id="guide3925" />
+    <sodipodi:guide
+       position="-62.980586,67.198169"
+       orientation="-0.70710678,-0.70710678"
+       id="guide4041" />
+    <sodipodi:guide
+       position="-52.793306,77.856535"
+       orientation="0,-1"
+       id="guide4043" />
+    <sodipodi:guide
+       position="-66.690406,107.06399"
+       orientation="0,-1"
+       id="guide4045" />
+    <sodipodi:guide
+       position="-73.050097,95.640107"
+       orientation="1,0"
+       id="guide8522" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12589">
+      <stop
+         style="stop-color:#0088aa;stop-opacity:1"
+         offset="0"
+         id="stop12585" />
+      <stop
+         style="stop-color:#55ddff;stop-opacity:1"
+         offset="1"
+         id="stop12587" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect8524"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,3.8864754,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,3.6509314,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12589"
+       id="linearGradient12591"
+       x1="108.14613"
+       y1="73.531303"
+       x2="117.2192"
+       y2="87.192856"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(39.398114,42.207833)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-175.04062,-147.97122)">
+    <g
+       id="g14427"
+       transform="matrix(1.9789031,0,0,1.4286271,-116.46902,-16.042511)"
+       style="stroke-width:0.594741"
+       inkscape:export-filename="A:\resources\png\g14427.png"
+       inkscape:export-xdpi="95.419998"
+       inkscape:export-ydpi="95.419998">
+      <path
+         id="rect8440"
+         style="fill:url(#linearGradient12591);fill-opacity:1;fill-rule:evenodd;stroke-width:0.0786793;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+         d="m 150.12791,118.25142 v 6.93713 a 1.0693666,1.1341001 0 0 1 -0.97183,1.22886 v -6.85785 a 1.1103877,1.1776044 0 0 1 0.97183,-1.30814 z m -0.6097,-3.44588 a 7.0991493,7.5288922 0 0 0 -2.20951,0.37797 v 0.2329 l 1.88527,1.99941 a 5.1271636,5.4375335 0 0 1 2.17163,-0.51886 5.1271636,5.4375335 0 0 1 5.12723,5.43745 5.1271636,5.4375335 0 0 1 -5.12723,5.43763 5.1271636,5.4375335 0 0 1 -2.20952,-0.53469 v -0.008 l -0.0118,0.0123 -1.83558,1.94688 v 0.29639 a 7.0991493,7.5288922 0 0 0 2.20952,0.37797 7.0991493,7.5288922 0 0 0 7.0991,-7.52887 7.0991493,7.5288922 0 0 0 -7.0991,-7.52888 z" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:8.00822px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:none;fill:#00aad4;fill-opacity:1;stroke-width:0.157359"
+         x="177.70465"
+         y="110.27297"
+         id="text9670"
+         transform="scale(0.88406855,1.131134)"><tspan
+           sodipodi:role="line"
+           id="tspan9668"
+           style="fill:#00aad4;fill-opacity:1;stroke-width:0.157359"
+           x="177.70465"
+           y="110.27297">igicreation</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.46189px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:none;stroke-width:0.0935877"
+         x="195.82343"
+         y="108.8932"
+         id="text15582"
+         transform="scale(0.84966394,1.1769359)"><tspan
+           sodipodi:role="line"
+           id="tspan15580"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#109a80;fill-opacity:1;stroke-width:0.0935877"
+           x="195.82343"
+           y="108.8932">Design&amp;Developer</tspan></text>
+    </g>
+  </g>
+</svg>

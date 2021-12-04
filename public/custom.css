@@ -1,0 +1,948 @@
+/* color code */
+/* #0000FF---blue
+#fb2ac7---maganta
+#fd9be4---pink
+#2ab7ca
+#FED766 */
+
+
+/* style="width:50%;height:70%;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;" */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*.digicreation{
+    color: #FF8008;
+    font-family: "lora";
+}
+body{
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+
+
+.navBar{
+    width: 100%;
+    
+    background-color: white;
+    background-color: #336570;
+    border-bottom:1px solid rgb(0, 7, 75);
+    
+}
+.navBar .navbar-nav .nav-item a{
+    font-size: 1.2em;
+    border-bottom: 3px solid transparent;
+    color: #FF8008;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif; 
+    
+    
+}
+.navBar .navbar-nav .nav-item a:hover{
+    border-bottom: 3px solid #FF8008;
+}
+
+
+.navBar .navbar-brand img{
+    max-width: 2em;
+    max-height: 2em;
+    
+}
+.navBar .container .navbar-brand .logo{
+   padding-left: -2em;
+   font-family: 'Lora', serif;
+   color: #FF8008;
+}
+#heroImg{
+    max-width: 100%;
+    min-height: 90vh;
+}
+/* #heroImg .row .svg .blob{
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 60% 40% 68% 32% / 40% 63% 37% 60% ;
+} */
+#heroImg h1{
+    font-size: 3em;
+    font-family:sans-serif;
+    
+}
+#heroImg h1 span{
+    font-family:sans-serif;
+    color: #1B525F;
+}
+
+#heroImg a{
+    color: #1B525F;
+    border: 1px solid #1B525F;
+    transition: all .1s ease-in-out;
+}
+#heroImg a:hover{
+    background-color: #336570;
+    color: white;
+    
+}
+#heroImg span{
+    font-family: 'Lora', serif;
+}
+
+#heroImg .svg{
+    animation: blob 5s alternate-reverse infinite;
+}
+@keyframes blob {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5%);
+    }
+    
+}
+
+
+/* Service area */
+.serviceWrapper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #1B525F;
+}
+/* have two col */
+.serviceWrapper .row1{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    
+}
+/* have cards */
+.serviceWrapper .row1 .column1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+/* new css for card */
+.serviceWrapper .row1 .column1  .cards{
+    width: 18em;
+    height: 15em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+    z-index: 100;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+
+}
+.serviceWrapper .row1 .column1 #card1{
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.serviceWrapper .row1 .column1 .cardGroup2{
+    
+    margin-top: -4em;
+} 
+/* background blob */
+.serviceWrapper .row1 .column1::after{
+    content: '';
+    width: 50%;
+    height: 80%;
+    background-color: #cfeaf1b9;
+    /* background-image: linear-gradient(to left top, #f28181, #f18888, #f08f8f, #ef9595, #ee9c9c); */
+    position: absolute;
+    border-radius: 56% 44% 70% 30% / 30% 56% 44% 70% ;
+    animation: blob 5s alternate-reverse infinite;
+    opacity: .2;
+}
+/* column 2 */
+.serviceWrapper .column2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceWrapper .column2 .columnContent{
+    
+    width: 60%;
+    height: 50%;
+}
+.serviceWrapper .row1 .column2 a{
+    border: 1px solid #FF8008;
+    color: #FF8008;
+    transition: all .1s ease-in-out;
+}
+.serviceWrapper .row1 .column2 a:hover{
+    background-color: #FF8008;
+    color: white;
+}
+
+.serviceWrapper .column2 .columnContent .line1{
+    width: 50%;
+   
+    
+    
+    
+}
+/* About us */
+.aboutUs{
+    width: 100%;
+    height: 100vh;
+}
+.aboutUs .row1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUs .row1 .column1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUs .column1 .columnContent{
+    
+    width: 70%;
+    height: 50%;
+}
+.aboutUs .row1 .column2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.aboutUs .row1 .column2 .column2Img{
+    width: 95%;
+    height: 60%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+.aboutUs .row1 .column2 .column2Img .backImg{
+    background-image: url("img/group1.png");
+    background-position: center center;
+    background-size: cover;
+    z-index: 1000;
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    
+   
+}
+
+.aboutUs .row1 .column2 .column2Img img{
+    width: 90%;
+    height: 50%;
+    
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 10em;
+    
+    background-color: #afd275;
+    
+
+}
+
+.banner .row .head{
+    height: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #afd275; */
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+}
+/* gallery */
+.contactUs{
+    width: 100%;
+    height: 100vh;
+    
+}
+.contactUs .row{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    
+}
+.contactUs .row .contactText{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contactUs .row .contactText img{
+    width: 100%;
+    height: 70%;
+}
+.contactUs .row .contactText h1{
+    font-size: 3em;
+}
+.contactUs .row .contactText .form .social img{
+    max-width: 10px;
+    max-height: 10px;
+
+}
+/* Footer */
+.footer{
+    margin: 0;
+    padding:0;
+    
+}
+.footer .row2 .quickLink{
+    color: white;
+    font-size: 1em;
+}
+.footer .row2 .quickLink a{
+    color: #FF8008;
+    
+}
+.footer .row2{
+    
+    background-color: #336570;
+    
+    height: auto;
+    display: flex;
+    
+    
+
+}
+.footer #social svg{
+    transition: all .35s linear;
+}
+.footer #social a:hover svg{
+    transform: rotate(360deg);
+    
+}
+.copyrights .copyContent{
+    background-color: #FF8008;
+    width: 100%;
+    height: 3em;
+    
+}
+.copyrights .copyContent p{
+    text-align: center;
+    line-height: 2em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* SVG Above footer */
+.svg1 img{
+    position: absolute;
+    left: 45%;
+    top:407%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+    transform: rotate(15deg);
+    display: none;
+}
+
+/* Serivce Page style */
+/* *********************** */
+.serviceCont1{
+    
+    width: 100%;
+    height: 86.5vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.432);
+    overflow: hidden;
+
+}
+.serviceCont1 .blurImg {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    /* margin-top: -230px;
+    
+    background-color: blueviolet;
+    transform:skew(0,5deg); */
+    
+    
+
+    background-image: url('img/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg');
+    background-position:  top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+    
+}
+.serviceCont1 .serviceHead{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.678); /* Black w/opacity/see-through */
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #ffff;
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+}
+
+/* Media responsive */
+/* ****************************** */
+/* ********************************* */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media  (max-width: 575.98px) { 
+    #heroImg{
+        background-image: url("img/digital1.jpg");
+        background-position: right;
+        background-size: cover;
+    }
+    #heroImg .row .svg{
+        display: none;
+    }
+    #heroImg .row .col-md-5  h1{
+        font-size: 1.8em;
+        color: white;
+    }
+    /* Service  */
+    .serviceWrapper{
+        min-height: 300vh;
+        
+    }
+    .serviceWrapper .row1{
+        /* display: flex;
+        flex-direction: column;
+         */
+        min-height: 330vh;
+        
+        
+        
+        
+    }
+    .serviceWrapper .row1 .column1 h2{
+        font-size: 1.5em;
+    }
+    .serviceWrapper .row1 .column1 p{
+        font-size: 1em;
+    }
+   
+    .serviceWrapper .row1 .column1  .cards{
+          min-width: 80%;        
+          margin: 0 auto;
+    }
+    
+    /* for cards */
+    .serviceWrapper .row1 .column1  .cards{
+        margin-top:1em ;
+    }
+    
+    /* cardgroup1 */
+    .serviceWrapper .row1 .column1 .cardGroup1{
+        /* margin-bottom: .5em; */
+        display: block;
+     
+        
+    }
+    .serviceWrapper .row1 .column1 .cardGroup2{
+        /* margin-bottom: .5em; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        
+        
+    }
+    .serviceWrapper .row1 .column1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        background-color: blue;
+        
+    
+    }
+    .serviceWrapper .row1 .column2{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: brown;
+    } 
+    .serviceWrapper .column2 .columnContent{
+        margin-top: -3em;
+    }
+    /* For blob */
+    .serviceWrapper .row1 .column1::after{
+        display: none;
+    }
+    /* Why us */
+    .aboutUs{
+        height: auto;
+        padding: 1em auto;
+    }
+    .aboutUs .row1 .column1{
+        width: 100%;
+    
+    }
+    .aboutUs .column1 .columnContent{
+        width: 90%;
+    }
+    .aboutUs .row1 .column2{
+        display: none;
+    }
+    .banner{
+        height: 25em;
+    }
+    .banner .row .head{
+        height: 20%;
+    }
+    .contactUs{
+        height: auto;
+        margin: 1em auto;
+        text-align: center;
+    }
+    .contactUs .row .contactText{
+        display: none;
+    }
+    .footer{
+        margin: 0;
+        padding: 0;
+    }
+    .footer .row2{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .svg1 img{
+        display: none;
+    }
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #heroImg{
+        background-image: url("img/digital1.jpg");
+        background-position: right;
+        background-size: cover;
+    }
+    #heroImg .row .svg{
+        display: none;
+    }
+    #heroImg h1{
+        font-size: 2rem;
+        color: white;
+    }
+    #heroImg #heroContent{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .serviceWrapper{
+        height: auto;
+        width: 100%;
+        
+    }
+    .serviceWrapper .row1{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        /* done */
+        
+    }
+    /* .serviceWrapper .row1 .column1  .cards{
+        width: 80%;
+    } */
+    .serviceWrapper .row1 .column1{
+        width: 100%;
+       
+        flex-direction: column;
+       padding-top: 2em;
+          
+    }
+    /* for cards */
+    .serviceWrapper .row1 .column1  .cards{
+        width: 40%;
+        
+    }
+    .serviceWrapper .row1 .column1 .cardGroup2{
+        
+        height: 80%;
+        width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       margin-top: 0;
+    
+    }
+    /* cardgroup1 */
+    .serviceWrapper .row1 .column1 .cardGroup1{
+          width: 100%;
+          flex-direction: row;
+          margin-bottom: 2em;
+    }
+    
+    .serviceWrapper .row1 .column2{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .serviceWrapper .column2 .columnContent{
+        width: 85%;
+        margin: 1em auto;
+    }
+    /* For blob */
+    .serviceWrapper .row1 .column1::after{
+        display: none;
+    }
+    /* Why us */
+    .aboutUs{
+        height: auto;
+        padding: 1em auto;
+    }
+    .aboutUs .row1 .column1{
+        width: 100%;
+        padding-top: 1em;
+    }
+    .aboutUs .column1 .columnContent{
+        width: 85%;
+    }
+    .aboutUs .row1 .column2{
+        display: none;
+    }
+    .banner{
+        height: 25em;
+    }
+    .banner .row .head{
+        height: 20%;
+        width: 55%;
+    }
+    .contactUs{
+        height: auto;
+        margin: 1em auto;
+        text-align: center;
+    }
+    .contactUs .row .contactText{
+        display: none;
+    }
+    .footer{
+        margin: 0;
+        padding: 0;
+    }
+    .footer .row2{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .svg1 img{
+        display: none;
+    }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    #heroImg{
+        background-image: url("img/digital1.jpg");
+        background-position: right;
+        background-size: cover;
+        min-height: 91vh;
+    }
+    #heroImg .row .svg{
+        display: none;
+    }
+    #heroImg h1{
+        font-size: 3rem;
+        color: white;
+    }
+    #heroImg #heroContent{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .serviceWrapper{
+        height: auto;
+        width: 100%;
+        
+    }
+    .serviceWrapper .row1{
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        margin: 0 auto;
+
+        /* done */
+        
+    }
+    .serviceWrapper .row1 p{
+        font-size: 1.5em;
+    }
+    /* .serviceWrapper .row1 .column1  .cards{
+        width: 80%;
+    } */
+    .serviceWrapper .row1 .column1{
+        width: 100%;
+       
+        flex-direction: column;
+       padding-top: 2em;
+          
+    }
+    /* for cards */
+    .serviceWrapper .row1 .column1  .cards{
+        width: 45%;
+        
+    }
+    .serviceWrapper .row1 .column1 .cardGroup2{
+        
+        height: 80%;
+        width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       margin-top: 0;
+    
+    }
+    /* cardgroup1 */
+    .serviceWrapper .row1 .column1 .cardGroup1{
+          width: 100%;
+          flex-direction: row;
+          margin-bottom: 2em;
+    }
+    
+    .serviceWrapper .row1 .column2{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .serviceWrapper .column2 .columnContent{
+        width: 85%;
+        margin: 1em auto;
+    }
+    /* For blob */
+    .serviceWrapper .row1 .column1::after{
+        display: none;
+    }
+    /* Why us */
+    .aboutUs{
+        height: 61vh;
+        
+    }
+    .aboutUs .row1 .column1{
+        width: 100%;
+       
+    }
+    .aboutUs .row1 p{
+        font-size: 1.5em;
+    }
+    .aboutUs .column1 .columnContent{
+        width: 85%;
+    }
+    .aboutUs .row1 .column2{
+        display: none;
+    }
+    .banner{
+        height: 25em;
+    }
+    .banner .row .head{
+        height: 20%;
+        width: 55%;
+    }
+    .contactUs{
+        width: 100%;
+        height: 80vh;
+        padding: 1em auto;
+        text-align: center;
+        /* background-color: rgb(26, 45, 218); */
+        
+    }
+    .contactUs .row #contactPage{
+        width: 100%;
+    }
+    .contactUs .row #contactPage h1{
+        font-size: 3em;
+    }
+    .contactUs .row #contactPage p{
+        font-size: 1.5em;
+    }
+
+   
+
+    .contactUs .row .contactText{
+        display: none;
+    }
+    
+    .svg1 img{
+        display: none;
+    }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    #heroImg{
+        background-image: url("img/digital1.jpg");
+        background-position: right;
+        background-size: cover;
+        min-height: 91vh;
+    }
+    #heroImg .row .svg{
+        display: none;
+    }
+    #heroImg h1{
+        font-size: 3rem;
+        color: white;
+    }
+    #heroImg #heroContent{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .serviceWrapper{
+        height: auto;
+        width: 100%;
+        
+    }
+    .serviceWrapper .row1{
+        flex-direction: column;
+        height: 122vh;
+        width: 100%;
+        margin: 0 auto;
+
+        /* done */
+        
+    }
+    .serviceWrapper .row1 p{
+        font-size: 1.5em;
+    }
+    /* .serviceWrapper .row1 .column1  .cards{
+        width: 80%;
+    } */
+    .serviceWrapper .row1 .column1{
+        width: 100%;
+       
+        flex-direction: column;
+       padding-top: 2em;
+          
+    }
+    /* for cards */
+    .serviceWrapper .row1 .column1  .cards{
+        width: 45%;
+        
+    }
+    .serviceWrapper .row1 .column1 .cardGroup2{
+        
+        height: 80%;
+        width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       margin-top: 0;
+    
+    }
+    /* cardgroup1 */
+    .serviceWrapper .row1 .column1 .cardGroup1{
+          width: 100%;
+          flex-direction: row;
+          margin-bottom: 2em;
+    }
+    
+    .serviceWrapper .row1 .column2{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .serviceWrapper .column2 .columnContent{
+        width: 85%;
+        margin: 1em auto;
+    }
+    /* For blob */
+    .serviceWrapper .row1 .column1::after{
+        display: none;
+    }
+    /* Why us */
+    .aboutUs{
+        height: 61vh;
+        
+    }
+    .aboutUs .row1 .column1{
+        width: 100%;
+       
+    }
+    .aboutUs .row1 p{
+        font-size: 1.5em;
+    }
+    .aboutUs .column1 .columnContent{
+        width: 85%;
+    }
+    .aboutUs .row1 .column2{
+        display: none;
+    }
+    .banner{
+        height: 25em;
+    }
+    .banner .row .head{
+        height: 20%;
+        width: 55%;
+    }
+    .contactUs{
+        width: 100%;
+        height: 80vh;
+        padding: 1em auto;
+        text-align: center;
+        /* background-color: rgb(26, 45, 218); */
+        
+    }
+    .contactUs .row #contactPage{
+        width: 100%;
+    }
+    .contactUs .row #contactPage h1{
+        font-size: 3em;
+    }
+    .contactUs .row #contactPage p{
+        font-size: 1.5em;
+    }
+
+   
+
+    .contactUs .row .contactText{
+        display: none;
+    }
+    
+    .svg1 img{
+        display: none;
+    }
+ }
+
+/* // X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... } */

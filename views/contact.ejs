@@ -1,0 +1,88 @@
+<%- layout('layout/boilerplate')%>
+
+<div class="contactUs container-fluild m-0 p-0 ">
+  <div class="container-fluild bg-primary text-dark d-flex justify-content-center align-items-center " style="height: 40vh;">
+    <h1 class="">Contact Us</h1>
+  </div>
+  <div class="row container m-auto py-4 bg-light">
+    <!-- form start -->
+    <div class="col-md-12 col-sm-10 col-lg-6">
+      <form action="javascript:sendmail()" method="post" class=" row m-0 p-0 g-3 text-dark" id="form">
+        
+
+        <div class="col-md-5">
+            <label for="name" class="form-label ">Name</label>
+            <input style="background:transparent;" type="text" id="name" class="form-control text-dark" placeholder="First name" aria-label="First name">
+          </div>
+         
+        <div class="col-md-5">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control text-dark" style="background:transparent;" id="inputEmail4" placeholder="something@gmail.com">
+        </div>
+        
+        <div class="col-10">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control text-dark" style="background:transparent;" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-10">
+           <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control text-dark" id="inputAddress2" style="background:transparent;" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control text-dark" style="background:transparent;" placeholder="city" id="inputCity">
+        </div>
+        <div class="col-md-3">
+          <label for="inputState" class="form-label">State</label>
+          <input type="text" class="form-control text-dark" style="background:transparent;" placeholder="state" id="inputState">
+        </div>
+        <div class="col-md-3">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control text-dark" style="background:transparent;" placeholder="" id="inputZip">
+        </div>
+        <div class="col-10">
+          <input type="text" class="form-control p-3 text-dakr" placeholder="Phone" id="Phone" style="background: transparent;">
+        </div>
+        <div class="col-10">
+          <textarea name="Message" class="form-control p-3 text-dark" id="Message" placeholder="Message" required="" style="background: transparent;"></textarea>
+        </div>
+        
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+          <button>
+            <div class="svg-wrapper-1">
+              <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                </svg>
+              </div>
+            </div>
+            <span>Send</span>
+          </button>
+          <h6 style="padding-left: 1em; color: rgb(39, 211, 39); display: none;" id="submitReply">Email has sent</h6>
+        </div>
+      </form>
+</div>
+<!-- second -->
+<div class="col-lg-6 col-md-6 col-sm-10 ">
+  <div class="row w-100">
+    <h2><img src="https://img.icons8.com/ios-filled/50/4a90e2/address--v1.png"/></h2>
+      <h1 class="fs-4">Address</h1>
+      <address>Nadala road,near bus stand, Miani, Kapurthala, Punjab</address>
+    <div class="col-lg-12 col-md-12 col-sm-10 bg-light">
+      <h2><img src="https://img.icons8.com/material/50/4a90e2/mail.png"/></h2>
+      <h1 class="fs-4">Email</h1>
+      <p>info.digicreation@gmail.com</p>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-10 bg-light">
+      <h2><img src="https://img.icons8.com/material/50/4a90e2/iphone--v1.png"/></h2>
+      <h1 class="fs-4">Phone</h1>
+      <p>+9198760 02646</p>
+    </div>
+    
+  </div>
+</div>
+  </div>
+  
+</div>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">   
+    <link rel="stylesheet" href="/media.css">
+    <link rel="stylesheet" href="/custom1.css">
+    
+    <link rel="stylesheet" href="/blog.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>DigiCreation | Web Developer</title>
+</head>
+<body data-spy="scroll" data-target="#navBar" data-offset="30">
+    <%- include('../partials/navbar')%>
+    <main class="contaainer-fluild d-flex flex-column min-vh-100">
+    
+        <%- body -%>
+
+    </main>
+    <%- include('../partials/footer')%>
+    <!-- Javascript -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    
+    <script src="/custom.js"></script>
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        
+      });
+    </script>
+
+    <!-- SMTP -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <script>
+    
+    function sendmail(){
+
+        var name = $('#name').val();
+        var phone = $('#Phone').val();
+        var email = $('#inputEmail4').val();
+        var message = $('#Message').val();
+
+
+var Body =` Name:${name}<br> Phone:${phone}<br> Email:${inputEmail4}<br> message:${message}`;
+
+
+Email.send({
+     SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+     To: 'digicreation.aman@gmail.com',
+     From: "amanweb026@gmail.com",
+     Subject: `New message on contact from ${name}`,
+     Body: Body
+}).then(
+    message =>{
+        if(message=='OK'){
+        alert('Your mail has been send. Thank you for connecting.');
+        this.reset;
+        }
+        else{
+            console.error (message);
+            alert('There is error at sending message. ')
+            
+        }
+
+
+    }
+);
+
+
+
+
+};
+
+
+    </script>
+</body>
+</html>
